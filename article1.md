@@ -1,6 +1,6 @@
 ### 推送
 
-iOS推送有苹果推送和极光推送。
+##### iOS推送有苹果推送和极光推送。
 
 > 苹果推送链接：
 
@@ -14,11 +14,25 @@ http://devsdk.raysns.com/sunwenli/rsdk-base-server/src/push/server_push/devsdk/i
 http://devsdk.raysns.com/sunwenli/rsdk-base-server/src/push/server_push/devsdk/iosjpushtest/v1?alert=Thisisaaaaaamessage&badge=2&deviceToken=[%22%3Cf31835c3%208b37619a%20dd860e78%20f125948e%204075bbdf%20d418d828%202d61f9d1%20d9bdcb65%3E%22,%22%3Cd9ae8f1f%20120440ae%207cb9d0dc%2015ac66cb%20b4bf2ded%204fc4d1fc%204c55c677%2073a2153e%3E%22
 ```
 
-> 插件地址：
+> 链接地址说明：
+>
+> **http://devsdk.raysns.com/sunwenli/rsdk-base-server/src/push/server\_push/devsdk/iosapplepushtest/v1,这部分是插件地址。alert=**Thisisaaaaaamessage&**badge=2**&**deviceToken=**\[%22%3Cf31835c3%208b37619a%20dd860e78%20f125948e%204075bbdf%20d418d828%202d61f9d1%20d9bdcb65%3E%22,%22%3Cd9ae8f1f%20120440ae%207cb9d0dc%2015ac66cb%20b4bf2ded%204fc4d1fc%204c55c677%2073a2153e%3E%22\],这部分是参数
 
-```
-http://devsdk.raysns.com/sunwenli/rsdk-base-server/src/push/server_push/devsdk/iosapplepushtest/v1
-```
+##### 参数说明：
 
+| 参数名 | 值 |
+| :---: | :---: |
+| push\_alias |  |
+|  |  |
+|  |  |
 
+ push\_alias// 别名
+
+push\_device // 设备
+
+notification\_title // 通知标题
+
+notification\_body // 通知消息体
+
+custom\_data // 透传参数，Json
 
